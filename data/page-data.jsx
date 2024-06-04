@@ -1,23 +1,24 @@
 export const personalData = {
-	name: "Joe Doe",
+	name: "Brandon Truter",
 	role: "Software Engineer",
 	education: [
-		"Bachelor of Science in Computer Science, University of Oxford(2015-2019)",
-		"Master of Science in Artificial Intelligence, Imperial College London (2019-2021)",
+		"I.T Software Development (MCTS/MCPD)",
+    "CTU Training Solutions (2010)"
 	],
 	contactLinks: [
-		"mailto:emailto:time2code@gmail.com",
-		"https://twitter.com/time_tocode",
-		"https://linkedin.com/aliciarodriguezLi",
-		"https://medium.com/@time2code.ali",
+		"mailto:emailto:brandonleetruter@gmail.com",
+    "",
+    "https://www.linkedin.com/in/brandon-truter-a1bb05311",
+    "https://github.com/BrandonTruter"
 	],
 };
 
 export const aboutMe = {
 	title: "About Me",
 	body: [
-		"As a highly motivated and driven individual with a passion for making a positive impact, I have a unique blend of technical and interpersonal skills, thanks to my background in computer science. I am able to tackle complex problems with ease, and I never lose sight of my ultimate goal, even when facing challenges.",
-		"When I'm not working, I love hiking, reading, and spending time with my friends and family. I believe that my determination, can-do attitude, and hard work make me a true asset to any team.",
+    "I am a qualified and professional full-stack developer with over a decade worth of experience in designing, developing, deploying and testing ruby on rails web applications",
+    "Proficient in both frontend and backend technologies, ability to contribute in all phases of development. Adept at collaborating with cross-functional teams to deliver high-quality products on time and within budget.",
+		"When I'm not working, I love reading, playing sports and spending time with my family. I believe that my determination, can-do attitude, and hard work make me a true asset to any team."
 	],
 };
 
@@ -26,17 +27,14 @@ export const skills = {
 		{ icon: "👂🏼", text: "Active Listening" },
 		{ icon: "💬", text: "Effective Communication" },
 		{ icon: "👥", text: "Collaboration" },
-		{ icon: "⽓", text: "Teamwork" },
-		{ icon: "💡", text: "Creative Problem Solving" },
 		{ icon: "⌛️", text: "Time management" },
 	],
 	hard: [
-		{ icon: "💻", text: "Python" },
+		{ icon: "💻  ", text: "Ruby" },
+		{ icon: "🚀", text: "Ruby on Rails" },
 		{ icon: "ʦ", text: "TypeScript" },
-		{ icon: "🚀", text: "React" },
-		{ icon: "💾", text: "SQL" },
-		{ icon: "💾", text: "noSQL" },
-		{ icon: "📈", text: "Data Structures and Algorithms" },
+		{ icon: "💾", text: "PostgreSQL" },
+		{ icon: "📈", text: "Data Structures" },
 	],
 };
 
@@ -44,19 +42,30 @@ export const professionalData = {
 	title: "Professional Experience",
 	experiences: [
 		{
-			role: "Data Scientist, Acme Inc. (2021-Present)",
+			role: "Software developer, Avidity. (2021-2024)",
 			description:
-				"Design and implement machine learning models to analyze large datasets and drive business decisions. Collaborate with cross-functional teams to develop and launch new products and features. Provide technical guidance and mentorship to junior data scientists. Conduct regular presentations to stakeholders on the findings and insights generated from data analysis.",
+				"Responsible for driving the technical design and development of the entire platform, conducting code reviews, collaborating with agile cross-functional teams to gather requirements, design solutions and implement features according to specifications, delivering high-quality solutions built on scalable software that adheres to best practices, design patterns and clean code concepts.",
 			current: true,
 		},
-
 		{
-			role: "Machine Learning Engineer, XYZ Corp. (2019-2021)",
+			role: "Senior Engineer, TAUSpace. (2018-2021)",
 			description:
-				"Designed and implemented advanced machine learning algorithms to improve predictive accuracy and performance. Built and maintained scalable machine learning infrastructure using cloud computing platforms. Conducted data exploratory analysis to identify potential use cases and opportunities. Participated in regular code reviews to maintain high quality standards.",
+				"Responsible for the development and delivery of all features, maintaining the codebase and micro-service integrations, improving the speed and stability of backends, providing technical support to customers and team members, and translating real-time issues and business requirements.",
 			current: false,
 		},
 		{
+			role: "Systems developer, PayDNA. (2017-2018)",
+			description:
+				"Responsible for the development and maintenance of software for the entire system across all platforms (Web, API, MOBI, USSD)",
+			current: false,
+		},
+    {
+			role: "Full-stack developer, Summit Financial Partners. (2013-2017)",
+			description:
+				"Responsible for delivering the financial software of the website (design, develop, deploy, test, monitor, maintain, migrate) and the continuous integration of dependant services (Salesforce & Amazon S3), while providing support to clients & staff members.",
+			current: false,
+		},
+    {
 			role: "Machine Learning Engineer, ABX Corp. (2020-2021)",
 			description:
 				"Designed and implemented advanced machine learning algorithms to improve predictive accuracy and performance. Built and maintained scalable machine learning infrastructure using cloud computing platforms. Conducted data exploratory analysis to identify potential use cases and opportunities. Participated in regular code reviews to maintain high quality standards.",
