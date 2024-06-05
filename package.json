@@ -3,8 +3,8 @@
   "scripts": {
     "dev": "next dev",
     "start": "next start",
-    "build": "next build && next export",
-    "deploy": "gh-pages -d out"
+    "build": "next build",
+    "deploy": "main -d out"
   },
   "dependencies": {
     "next": "latest",
