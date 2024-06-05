@@ -9,9 +9,9 @@ const ProfessionalExperience = ({ data }) => {
 				{experiences.map(({ role, description, current }) => (
 					<div key={role} className='flex flex-col rounded-lg'>
 						<span className={`h-2 ${current ? "bg-black" : "bg-grey"}`} />
-						<div className='bg-grey-light p-6 drop-shadow-md'>
+						<div className='bg-grey-light mt-5 p-6 drop-shadow-md'>
 							<h3>{role}</h3>
-							<p className='mt-2 text-black font-serif font-thin'>{description}</p>
+							<p className='font-serif text-md text-black font-thin p-4 mt-2 font-sm rounded-lg bg-white'>{description}</p>
 						</div>
 					</div>
 				))}

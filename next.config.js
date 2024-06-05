@@ -16,6 +16,7 @@ const nextConfig = {
   basePath: basePath,
   trailingSlash: true,
   reactStrictMode: true,
+  images: { unoptimized: true }
 }
  
 module.exports = nextConfig
