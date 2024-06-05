@@ -1,5 +1,8 @@
 {
   "typescript.tsdk": "node_modules/typescript/lib",
   "typescript.enablePromptUseWorkspaceTsdk": true,
-  "codesandbox.liveEnabled": true
+  "codesandbox.liveEnabled": true,
+  "github-actions.workflows.pinned.workflows": [
+    "dynamic/pages/pages-build-deployment"
+  ]
 }
